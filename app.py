@@ -2,7 +2,7 @@ import streamlit as st
 from recommender import build_recommender, recommend_song
 
 st.title("🎶 Tamil Song Recommender")
-st.write("Pick a Tamil song and get recommendations based on lyrics similarity!")
+st.write("Pick a Tamil song and get recommendations based on lyrics similarity with lyrics!")
 
 @st.cache_resource
 def load_system():
